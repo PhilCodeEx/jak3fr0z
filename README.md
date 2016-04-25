@@ -37,7 +37,7 @@ Open index.php in your browser, quick run will only run the shell. Use packer to
 Using Console :
 ```
 $ php -f index.php
-b374k shell packer 0.4
+jak3fr0z shell packer 1.2.0
 
 options :
         -o filename                             save as filename
