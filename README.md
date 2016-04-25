@@ -1,4 +1,4 @@
-# jak3froz shell 3.2.4
+# jak3fr0z shell 3.2.4
 This PHP Shell is a useful tool for system or web administrator to do remote management without using cpanel, connecting using ssh, ftp etc. All actions take place within a web browser
 
 Features : 
@@ -55,5 +55,5 @@ $ php -f index.php -- -o myShell.php -p myPassword -s -b -z gzcompress -c 9
 Don't forget to delete index.php, base, module, theme and all files inside it after you finished. Because it is not protected with password so it can be a security threat to your server
 
 
-https://github.com/PhilCodeEx/jak3froz
+https://github.com/PhilCodeEx/jak3fr0z
 
