@@ -1,5 +1,4 @@
 <?php
-
 block_bot();
 auth();
 chdir(get_cwd());

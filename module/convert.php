@@ -15,6 +15,7 @@ $GLOBALS['module']['convert']['content'] = "
 <tfoot id='decodeResult'><tr><td colspan='2'>You can also press ctrl+enter to submit</td></tr></tfoot>
 </table>";
 
+
 if(!function_exists('decode')){
 	function decode($str){
 		$res = "";
