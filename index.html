@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Jak3fr0z by PhilCodeEx</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Jak3fr0z</h1>
+        <h2>Webshell</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/PhilCodeEx/jak3fr0z/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/PhilCodeEx/jak3fr0z/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/PhilCodeEx/jak3fr0z" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="jak3fr0z-shell-324" class="anchor" href="#jak3fr0z-shell-324" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>jak3fr0z shell 3.2.4</h1>
+
+<p><a href="http://jak3fr0z.iwiin.com/">HOME</a></p>
+
+<p>This PHP Shell is a useful tool for system or web administrator to do remote management without using cpanel, connecting using ssh, ftp etc. All actions take place within a web browser</p>
+
+<p>Features : </p>
+
+<ul>
+<li>File manager (view, edit, rename, delete, upload, download, archiver, etc)</li>
+<li>Search file, file content, folder (also using regex)</li>
+<li>Command execution</li>
+<li>Script execution (php, perl, python, ruby, java, node.js, c)</li>
+<li>Give you shell via bind/reverse shell connect</li>
+<li>Simple packet crafter</li>
+<li>Connect to DBMS (mysql, mssql, oracle, sqlite, postgresql, and many more using ODBC or PDO)</li>
+<li>SQL Explorer</li>
+<li>Process list/Task manager</li>
+<li>Send mail with attachment (you can attach local file on server)</li>
+<li>String conversion</li>
+<li>All of that only in 1 file, no installation needed</li>
+<li>Support PHP &gt; 4.3.3 and PHP 5</li>
+</ul>
+
+<h2>
+<a id="requirements-" class="anchor" href="#requirements-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements :</h2>
+
+<ul>
+<li>PHP version &gt; 4.3.3 and PHP 5</li>
+<li>As it using zepto.js v1.1.2, you need modern browser to use jak3fr0z shell. See browser support on zepto.js website <a href="http://zeptojs.com/">http://zeptojs.com/</a>
+</li>
+<li>Responsibility of what you do with this shell</li>
+</ul>
+
+<h2>
+<a id="installation-" class="anchor" href="#installation-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation :</h2>
+
+<p>Download jak3fr0z.php (default password : jak3fr0z), edit and change password and upload jak3fr0z.php to your server, password is in sha1(md5()) format. Or create your own jak3froz.php, explained below</p>
+
+<h2>
+<a id="customize-" class="anchor" href="#customize-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Customize :</h2>
+
+<p>After finished doing editing with files, upload jak3fr0z.php, base, module, theme and all files inside it to a server</p>
+
+<p>Using Web Browser :</p>
+
+<p>Open index.php in your browser, quick run will only run the shell. Use packer to pack all files into single PHP file. Set all the options available and the output file will be in the same directory as jak3fr0z.php</p>
+
+<p>Using Terminal :</p>
+
+<pre><code>$ php -f index.php
+jak3fr0z shell packer 1.4.3
+
+options :
+        -o filename                             save as filename
+        -p password                             protect with password
+        -t theme                                theme to use
+        -m modules                              modules to pack separated by comma
+        -s                                      strip comments and whitespaces
+        -b                                      encode with base64
+        -z [no|gzdeflate|gzencode|gzcompress]   compression (use only with -b)
+        -c [0-9]                                level of compression
+        -l                                      list available modules
+        -k                                      list available themes
+</code></pre>
+
+<p>example :</p>
+
+<pre><code>$ php -f index.php -- -o jak3fr0z.php -p myPassword -s -b -z gzcompress -c 9
+</code></pre>
+
+<p>Don't forget to delete index.php, base, module, theme and all files inside it after you finished. Because it is not protected with password so it can be a security threat to your server</p>
+
+<p><a href="https://github.com/PhilCodeEx/jak3fr0z">Source Code</a>
+<a href="http://jak3fr0z.iwiin.com/">HOME</a></p>
+
+<h3>
+<a id="anonymous-philippines" class="anchor" href="#anonymous-philippines" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong><code>Anonymous Philippines</code></strong>
+</h3>
+
+<pre><code>                                      2016
+</code></pre>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
