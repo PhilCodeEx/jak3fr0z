@@ -1,6 +1,6 @@
 # jak3fr0z shell 3.2.4
 
-http://philcodeex.github.io/jak3fr0z/
+http://jak3fr0z.iwiin.com/
 
 This PHP Shell is a useful tool for system or web administrator to do remote management without using cpanel, connecting using ssh, ftp etc. All actions take place within a web browser
 
@@ -21,23 +21,23 @@ Features :
 
 ## Requirements :
  * PHP version > 4.3.3 and PHP 5
- * As it using zepto.js v1.1.2, you need modern browser to use jak3froz shell. See browser support on zepto.js website http://zeptojs.com/
+ * As it using zepto.js v1.1.2, you need modern browser to use jak3fr0z shell. See browser support on zepto.js website http://zeptojs.com/
  * Responsibility of what you do with this shell
  
 ## Installation :
-Download jak3froz.php (default password : jak3froz), edit and change password and upload jak3froz.php to your server, password is in sha1(md5()) format. Or create your own jak3froz.php, explained below
+Download jak3fr0z.php (default password : jak3fr0z), edit and change password and upload jak3fr0z.php to your server, password is in sha1(md5()) format. Or create your own jak3froz.php, explained below
 
 ## Customize :
-After finished doing editing with files, upload jak3froz.php, base, module, theme and all files inside it to a server
+After finished doing editing with files, upload jak3fr0z.php, base, module, theme and all files inside it to a server
 
 Using Web Browser :
 
-Open index.php in your browser, quick run will only run the shell. Use packer to pack all files into single PHP file. Set all the options available and the output file will be in the same directory as index.php
+Open index.php in your browser, quick run will only run the shell. Use packer to pack all files into single PHP file. Set all the options available and the output file will be in the same directory as jak3fr0z.php
 
-Using Console :
+Using Terminal :
 ```
 $ php -f index.php
-jak3fr0z shell packer 1.2.0
+jak3fr0z shell packer 1.4.3
 
 options :
         -o filename                             save as filename
@@ -53,10 +53,10 @@ options :
 ```
 example :
 ```
-$ php -f index.php -- -o myShell.php -p myPassword -s -b -z gzcompress -c 9
+$ php -f index.php -- -o jak3fr0z.php -p myPassword -s -b -z gzcompress -c 9
 ```
 Don't forget to delete index.php, base, module, theme and all files inside it after you finished. Because it is not protected with password so it can be a security threat to your server
 
 
 https://github.com/PhilCodeEx/jak3fr0z
-http://philcodeex.github.io/jak3fr0z/
+http://jak3fr0z.iwiin.com/
