@@ -26,7 +26,7 @@
 #logout{float:right;}
 </style>
 </head>
-<body>
+<body oncontextmenu="return false">
 <!--wrapper start-->
 <div id='wrapper'>
 	<!--header start-->

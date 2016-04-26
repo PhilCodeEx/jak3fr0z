@@ -403,7 +403,7 @@ class JavaScriptPacker {
 	}
 	
 	// use high-ascii values
-	// characters: ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿À�?ÂÃÄÅÆÇÈÉÊËÌ�?Î�?�?ÑÒÓÔÕÖ×ØÙÚÛÜ�?Þßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþ
+	
 	function _encode95($charCode) {
 		$res = '';
 		if ($charCode >= $this->_encoding)
@@ -524,7 +524,7 @@ class JavaScriptPacker {
 }';
 	
 	// use high-ascii values
-	// characters: ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿À�?ÂÃÄÅÆÇÈÉÊËÌ�?Î�?�?ÑÒÓÔÕÖ×ØÙÚÛÜ�?Þßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþ
+
 	var $JSFUNCTION_encode95 = 'function($charCode) {
     return ($charCode < _encoding ? \'\' : arguments.callee($charCode / _encoding)) +
         String.fromCharCode($charCode % _encoding + 161);

